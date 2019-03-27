@@ -45,6 +45,7 @@ There are two files required to run the library available [here](https://shaka-p
 ## Trans-coding and Playing
 
 To trans-code, download a.ui, ui_setter.py, ffmpeg_util.py and main_ui.py, and put them under the same directory. Execute main_ui.py with Python. Video trans-coding and DASH segment generation can be done with this toolbox.
+
 To play DASH videos, users must make sure they have a server on their system, and Apache is used here. For Linux, Apache2 is recommended; for Mac OS, Apachectl is recommended. 
 To install Apache2 and execute on Linux, type following commands in terminal:
 ```
